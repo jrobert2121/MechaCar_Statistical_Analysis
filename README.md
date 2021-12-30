@@ -1,15 +1,20 @@
 # MechaCar_Statistical_Analysis
 
 ## Project Overview
+A new prototype, the MechaCar, is experiencing production issues that are impeding the manufacturing team's progress.  Management would like the analytics team to review production data for insights that may aid the manufacturing team.
 
 ## Purpose
+The purpose of the project will be to conduct a linear regression to predict MPG, collect summary statistics on the PSI of the suspension coils, perform t-tests on the manufacturing lots, and design a study to compare performance against other vehicles.
 
 ## Linear Regression to Predict MPG
-Which variables/coefficients provided a non random amount of variance to the mpg values in the dataset?
 
-Is the slope of the linear model considered to be zero  why or why not?
+!Multiple_Linear_Regression](MechaCar_Statistical_Analysis/Resources/Multiple_linear_regression.png)
 
-Does this linear model predict mpg of MechaCar prototypes effectively?  Why or why not?
+The vehicle length (p value 2.6x10-12) and ground clearance (p value 5.21x10-8) variables provide a non random amount of variance to the MPG values in the dataset.  In addition, the intercept is statistically significant with a p value of 5.08x10-8.  This would indicate that there are likely other factors not included in our dataset that would have an impact on the MPG.
+
+The slope of the linear model is not considered to be zero.  As shown, in the purple box above, the p-value is 5.35x10-11, which is much smaller than our assumed significance level of .05.  Therefore, there is sufficient evidence to reject our null hypothesis.
+
+The linear model can reasonably predict MPG of the MechaCar.  The r-squared value, as indicated in the orange box above, is .71.  This indicates a 71% likelihood that future data points will fit the linear model.
 
 ## Summary Statistics on Suspension Coils
 write summary using screenshots of both summaries and address the following:

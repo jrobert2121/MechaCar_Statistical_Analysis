@@ -8,7 +8,7 @@ The purpose of the project will be to conduct a linear regression to predict MPG
 
 ## Linear Regression to Predict MPG
 
-![Multiple_Linear_Regression](MechaCar_Statistical_Analysis/Resources/Multiple_linear_regression.png)
+![Multiple_Linear_Regression](Resources/Multiple_linear_regression.png)
 
 The vehicle length (p value 2.6x10-12) and ground clearance (p value 5.21x10-8) variables provide a non random amount of variance to the MPG values in the dataset.  In addition, the intercept is statistically significant with a p value of 5.08x10-8.  This would indicate that there are likely other factors not included in our dataset that would have an impact on the MPG.
 

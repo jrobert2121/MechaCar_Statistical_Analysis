@@ -42,14 +42,20 @@ We can see that our p-value is equal to .06, which is above our significance lev
 
 ### T-Tests on Individual Lots
 
+ - Lot 1
+
 ![t_test_lot1](Resources/t_test_lot1.png)
 
 On Lot 1, we calculate a p-value of 1, which is higher than our significance level.  We are unable to reject the null hypothesis, as this indicates that the means are statistically similar.
+
+ - Lot 2
 
 ![t_test_lot2](Resources/t_test_lot2.png)
 
 On Lot 2, the p-value is .61, which is also higher than our significance level.  Therefore, as with Lot 1, we aren't able to reject the null hypothesis on Lot 2.  The mean of Lot 2 is statistically similar to the mean of the population.
 
+ - Lot 3
+ 
 ![t_test_lot3](Resources/t_test_lot3.png)
 
 Upon performing a t-test on lot 3, the p-value is determined to be .04.  The p-value is less than our significance level of .05.  We have sufficient evidence to reject the null hypothesis.  We can state that the two means are statistically different.  Greater evaluation of Lot 3 may be necessary.

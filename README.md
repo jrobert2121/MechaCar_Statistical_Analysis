@@ -61,9 +61,5 @@ On Lot 2, the p-value is .61, which is also higher than our significance level. 
 Upon performing a t-test on lot 3, the p-value is determined to be .04.  The p-value is less than our significance level of .05.  We have sufficient evidence to reject the null hypothesis.  We can state that the two means are statistically different.  Greater evaluation of Lot 3 may be necessary.
 
 ## Study Design: MechaCar vs Competition
-short description of a statistical study that can quantify how the mechacar performs against the competition.  think critically about what metrics would be of interest to a consumer (cost, city or hwy fuel efficiency, hp, maint cost, or safety rating).  Address the following questions:
- - what metric or metrics will i test?
- - what is the null or alternative hypothesis?
- - what statistical test would be used to test the hypothesis and why
- - what data is needed to run the statistical test
- 
+
+To determine how MechaCar's prototype might perform in the U.S. vehicle market, they will need to compare themselves against their competitors.  MechaCar should consider using the following key metrics: vehicle cost, fuel efficiency, safety ratings, and horsepower.  We will want to determine if there is any statisical difference in each of the above factors based on vehicle manufacturer.  Our null hypothesis would be that the means of all groups are equal.  We can use ANOVA tests for each of the metrics.  Our categorical data type would be the manufacturer and the dependent variable would be the key metric.  ANOVA tests are utilized to determine if there is a statistical difference between the distribution means from multiple samples.  If the p-value for test is less than the significance level of .05,, then we can say that MechaCar is significantly different in that category from the competition.  It is those areas where we can dive deeper to look at whether MechaCar performs better or worse than the competition.  We will need to determine the manufacturers of all of MechaCar's prototype's competitors.  For each of those competitors, we will need to gather vehicle costs for the U.S. market, MPG for city, MPG for highway, safety ratings, and horsepower.
